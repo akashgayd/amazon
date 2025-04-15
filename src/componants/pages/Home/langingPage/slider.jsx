@@ -1,8 +1,8 @@
 import { useState, useEffect, useRef } from 'react';
-import img1 from '../../../assets/HEADER/slider1.jpg';
-import img2 from '../../../assets/HEADER/slider2.jpg';
-import img3 from '../../../assets/HEADER/sider3.jpg'; // Fixed typo in your import (sider3 -> slider3)
-import img4 from '../../../assets/HEADER/slider4.jpg';
+import img1 from '../../../../assets/HEADER/slider1.jpg';
+import img2 from '../../../../assets/HEADER/slider2.jpg';
+import img3 from '../../../../assets/HEADER/sider3.jpg'; // Fixed typo in your import (sider3 -> slider3)
+import img4 from '../../../../assets/HEADER/slider4.jpg';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const Slider = () => {

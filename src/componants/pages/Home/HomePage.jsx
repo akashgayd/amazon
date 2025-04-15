@@ -2,8 +2,10 @@ import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Cookies from 'js-cookie';
 import NavBar from '../../common/navbar';
-import Slider from './homeSlider';
-import Cards from './HomeOther/Cards';
+import Slider from './langingPage/slider';
+import ProductListing from '../../ProductListingPage';
+// import Cards from './HomeOther/Cards';
+
 
 const Home = () => {
   const navigate = useNavigate();
@@ -22,8 +24,8 @@ const Home = () => {
 
   return (
     <><NavBar />
-    <Slider/>  
-    <Cards/>
+  <Slider />
+  <ProductListing />
 
   
     </>

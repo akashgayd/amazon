@@ -45,7 +45,7 @@ const Navbar = () => {
   return (
     <>
       <div className="relative">
-        <div className="bg-gray-900 text-white w-full z-50">
+        <div className="bg-gray-900 text-white w-full z-50 fixed top-0">
           {/* Top Navigation Bar */}
           <div className="flex items-center px-2 py-1">
             {/* Logo */}
